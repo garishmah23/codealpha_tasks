@@ -1,0 +1,8 @@
+
+CRIME ANALYTICS REPORT
+--------------------------
+Total Cases: 628
+Most Affected City: Delhi
+Most Common Crime: Theft
+--------------------------
+Generated Successfully

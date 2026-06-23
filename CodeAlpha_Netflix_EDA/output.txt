@@ -1,0 +1,91 @@
+NETFLIX EXPLORATORY DATA ANALYSIS REPORT
+============================================================
+
+1. DATASET SHAPE
+(8807, 12)
+
+2. COLUMN NAMES
+show_id
+type
+title
+director
+cast
+country
+date_added
+release_year
+rating
+duration
+listed_in
+description
+
+3. MISSING VALUES
+show_id            0
+type               0
+title              0
+director        2634
+cast             825
+country          831
+date_added        10
+release_year       0
+rating             4
+duration           3
+listed_in          0
+description        0
+dtype: int64
+
+4. MOVIES VS TV SHOWS
+type
+Movie      6131
+TV Show    2676
+Name: count, dtype: int64
+
+5. TOP 10 CONTENT PRODUCING COUNTRIES
+country
+United States     2818
+India              972
+Unknown            831
+United Kingdom     419
+Japan              245
+South Korea        199
+Canada             181
+Spain              145
+France             124
+Mexico             110
+Name: count, dtype: int64
+
+6. CONTENT RATINGS DISTRIBUTION
+rating
+TV-MA       3207
+TV-14       2160
+TV-PG        863
+R            799
+PG-13        490
+TV-Y7        334
+TV-Y         307
+PG           287
+TV-G         220
+NR            80
+G             41
+TV-Y7-FV       6
+Unknown        4
+NC-17          3
+UR             3
+74 min         1
+84 min         1
+66 min         1
+Name: count, dtype: int64
+
+7. TOP 10 RELEASE YEARS
+release_year
+2018    1147
+2017    1032
+2019    1030
+2020     953
+2016     902
+2021     592
+2015     560
+2014     352
+2013     288
+2012     237
+Name: count, dtype: int64
+
